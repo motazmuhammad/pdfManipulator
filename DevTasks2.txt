@@ -1,0 +1,3 @@
+The aim of this task is to explore QtCreator as an alternative to visual studio community.
+This will be done with following the tutorial here https://www.youtube.com/watch?v=I96uPDifZ1w
+if we are satisfied with the performance we will continue with QT creator
