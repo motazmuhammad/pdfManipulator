@@ -75,6 +75,7 @@
    </attribute>
    <addaction name="actionNew"/>
    <addaction name="actionOpen"/>
+   <addaction name="actionSaveAs"/>
   </widget>
   <action name="actionNew">
    <property name="icon">
@@ -95,6 +96,10 @@
    </property>
   </action>
   <action name="actionSaveAs">
+   <property name="icon">
+    <iconset resource="Icons/Icons/resources.qrc">
+     <normaloff>:/images/Save.bmp</normaloff>:/images/Save.bmp</iconset>
+   </property>
    <property name="text">
     <string>SaveAs</string>
    </property>
