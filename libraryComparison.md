@@ -5,6 +5,6 @@ and ease of use
 
 
  | Library Name  | PoDoFo | MuPdf|
- | ------------- | ------------- |
+ | ------------- | -------|----- |
  | Open source   | Yes    | Yes  |
  | Content Cell  | Content| Cell  |
