@@ -4,7 +4,7 @@ The choice will probably be based on lightweight, speed, cross platform operatio
 and ease of use
 
 
- | Library Name  | PoDoFo | MuPdf|
- | ------------- | -------|----- |
- | Open source   | Yes    | Yes  |
- | Content Cell  | Content| Cell  |
+ | Library Name  | PoDoFo | MuPdf | QtPDF |
+ | ------------- | -------|-----  |----
+ | Open source   | Yes    | Yes   | Yes   |
+ | Content Cell  | Content| Cell  |yes    |
