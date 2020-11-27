@@ -12,9 +12,7 @@ and ease of use
  | specific page deletion   |  ?     |  ?    |  ?    				                            | Yes   |
  | specific page rotation   |  ?     |  ?    |  ?    				                            | Yes   |
  | Problems				    |  ?     |  ?    |  requires chromium                               | Yes   |
- | comments                 |  ?     |  ?    | chromnium is actually c++ base maybe it is a     |       |
- |                          |        |       | good thing and pdfium is the part that is used   |       |
- |                          |        |       | for that                                         |       |
+ | comments                 |  ?     |  ?    | chromnium is actually c++ base maybe it is a good thing and pdfium is the part that is used | for that      |       |
  |Tried on multiple platforms|?      | yes   | Yes                                              | Yes   |
 
 It seems we will start a quick prototypw with pypdf 2 or 4 for now as it ticks all the requirements I am looking for.
