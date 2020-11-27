@@ -4,16 +4,16 @@ The choice will probably be based on lightweight, speed, cross platform operatio
 and ease of use
 
 
- | Library Name  			| PoDoFo | MuPdf | QtPDF       			                            | pypdf | 
- | ------------- 			| -------|-----  |----   				                            | ----  |
- | Open source   			| Yes    | Yes   | Yes   				                            | Yes   |
- | reads from images     	| Content| Yes   |yes    				                            | Yes   |
- | pdf concatenation    	|  ?     |  ?    |  ?    				                            | Yes   |
- | specific page deletion   |  ?     |  ?    |  ?    				                            | Yes   |
- | specific page rotation   |  ?     |  ?    |  ?    				                            | Yes   |
- | Problems				    |  ?     |  ?    |  requires chromium                               | Yes   |
- | comments                 |  ?     |  ?    | chromnium is actually c++ base maybe it is a good thing and pdfium is the part that is used for that |      |       |
- |Tried on multiple platforms|?      | yes   | Yes                                              | Yes   |
+ | Library Name  			| PoDoFo | MuPdf | QtPDF       			                            | pypdf | VersyPDF|
+ | ------------- 			| -------|-----  |----   				                            | ----  |---- |
+ | Open source   			| Yes    | Yes   | Yes   				                            | Yes   | Yes |
+ | reads from images     	| Content| Yes   |yes    				                            | Yes   | Yes |
+ | pdf concatenation    	|  ?     |  ?    |  ?    				                            | Yes   | Yes |
+ | specific page deletion   |  ?     |  ?    |  ?    				                            | Yes   | Yes |
+ | specific page rotation   |  ?     |  ?    |  ?    				                            | Yes   | Yes |
+ | Problems				    |  ?     |  ?    |  requires chromium                               | Yes   | Yes |
+ | comments                 |  ?     |  ?    | chromnium is actually c++ base maybe it is a good thing and pdfium is the part that is used for that |      |       | Yes |
+ |Tried on multiple platforms|?      | yes   | Yes                                              | Yes   | Yes |
 
 It seems we will start a quick prototypw with pypdf 2 or 4 for now as it ticks all the requirements I am looking for.
 
