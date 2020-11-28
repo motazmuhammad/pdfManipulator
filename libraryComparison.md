@@ -31,3 +31,7 @@ or a vcpkg supported library for ease of installation Qtpdf has been tried on al
 
 The rest of the libraries don't suffer form this shortcome The aim is to create as light as possible software that does as much as possible
 Therefore the lightest of the aforementioned libraries will be chosen
+
+I actually have tried Mupdf in debug mode on windows and it is very fast compared to Qtpdf 
+
+Currently the choice seems to be between podofo, mupdf and libharu. In all cases. I decided to make my project in a way such that it is easy to change the pdf library In case that is decided to happen in the future. This is doable by creating a thin wrapper around whatever pdf library that is chosen so that changing the library is done via  changing code in the wrapper only
